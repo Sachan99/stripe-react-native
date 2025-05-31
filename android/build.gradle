@@ -22,6 +22,9 @@ buildscript {
     }
   }
 }
+plugins {
+    id 'org.jetbrains.kotlin.plugin.compose' version '2.2.0-RC'
+}
 
 if (project == rootProject) {
   apply from: 'spotless.gradle'
